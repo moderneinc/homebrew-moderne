@@ -3,10 +3,10 @@
 class Mod < Formula
   desc "Automated code remediation."
   homepage "https://moderne.io"
-  url "https://pkgs.dev.azure.com/moderneinc/moderne_public/_packaging/moderne/maven/v1/io/moderne/moderne-cli-macos-tar/v0.2.3/moderne-cli-macos-tar-v0.2.3"
-  sha256 "b731127b31870bfaa0a13adeedc5a03974dcb836ff875a75fbaea3007a7129fe"
+  url "https://pkgs.dev.azure.com/moderneinc/moderne_public/_packaging/moderne/maven/v1/io/moderne/moderne-cli-macos-tar/v0.2.4/moderne-cli-macos-tar-v0.2.4"
+  sha256 "598320d0044b523e6f7fdbedd8511228cc8851c57bbd83353ebdbdf52f4f5cc3"
   license :public_domain
-  version "v0.2.3"
+  version "v0.2.4"
 
   def install
     bin.install "mod"
