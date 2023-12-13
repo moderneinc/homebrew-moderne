@@ -9,7 +9,7 @@ class Mod < Formula
   license :public_domain
 
   head do
-    url "https://github.com/moderneinc/homebrew-moderne.git", branch: "staging" # the default is "main"
+    url "https://pkgs.dev.azure.com/moderneinc/moderne_public/_packaging/staging/maven/v1/io/moderne/moderne-cli-macos-tar/v1.7.1/moderne-cli-macos-tar-v1.7.1"
     sha256 "71465b344858440c9d9c9df8a6aed7979791930be12f00be0c08fc4c78725690"
     version "v1.7.1"
   end
