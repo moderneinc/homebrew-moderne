@@ -1,5 +1,5 @@
-require "./stable.rb"
-require "./staging.rb"
+require __dir__ + "/stable.rb"
+require __dir__ + "/staging.rb"
 
 class Mod < Formula
   desc "Automated code remediation."
