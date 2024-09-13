@@ -1,5 +1,5 @@
 module Staging
-  URL = "https://pkgs.dev.azure.com/moderneinc/moderne_public/_packaging/staging/maven/v1/io/moderne/moderne-cli-macos-tar/v3.20.7/moderne-cli-macos-tar-v3.20.7"
-  SHA256 = "1da43a75e3bb117d9af57bfeec1c5c73f18ef0af87be50bc04b0916f076a61d5"
-  VERSION = "v3.20.7"
+  URL = "https://pkgs.dev.azure.com/moderneinc/moderne_public/_packaging/staging/maven/v1/io/moderne/moderne-cli-macos-tar/v3.20.8/moderne-cli-macos-tar-v3.20.8"
+  SHA256 = "2bea1bcf71151748f46915e1d1ddf8cbf44aad146be2050a507db3f14ff5c459"
+  VERSION = "v3.20.8"
 end
