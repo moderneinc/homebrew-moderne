@@ -11,3 +11,8 @@ brew install moderneinc/moderne/mod
 ```
 brew install moderneinc/moderne/mod --head
 ```
+
+### Moddy Desktop
+```
+brew install --cask moderneinc/moderne/moddy-desktop
+```
