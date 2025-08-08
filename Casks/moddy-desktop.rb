@@ -1,8 +1,8 @@
 cask "moddy-desktop" do
-  version "0.4.5"
-  sha256 "bc5893aa6977cb9e9df933f1b53830fb11adcb95402f6feafa2a5fdee8013804"
+  version "0.4.6"
+  sha256 "8c81185faf6fa4739d57b1b8629bda8a561f6bb428c7cf24767ffb5ffe0cab95"
 
-  url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/moddy-0.4.5.dmg"
+  url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/moddy-0.4.6.dmg"
   name "Moddy Desktop"
   desc "Moddy Desktop - Automated code remediation desktop client"
   homepage "https://moderne.io"
