@@ -2,7 +2,7 @@ cask "moddy-desktop-prerelease" do
   version "0.4.8--prerelease"
   sha256 "6968842fcd382daa570401d66f5743ac416c270a415d3b507efab953a99f409b"
 
-  url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/#{version}/moddy-#{version}.dmg"
+  url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/moddy-#{version}.dmg"
   name "Moddy Desktop (Prerelease)"
   desc "Moddy Desktop - Automated code remediation desktop client (Prerelease)"
   homepage "https://moderne.io"
