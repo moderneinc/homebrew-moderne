@@ -3,16 +3,22 @@ Homebrew tap for Moderne
 
 ## Usage
 
-### Stable
+### Mod CLI
+#### Stable
 ```shell
 brew install moderneinc/moderne/mod
 ```
-### Staging
-```
+#### Staging
+```shell
 brew install moderneinc/moderne/mod --head
 ```
 
 ### Moddy Desktop
-```
+#### Stable
+```shell
 brew install --cask moderneinc/moderne/moddy-desktop
+```
+#### Prerelease
+```shell
+brew install --cask moddy-desktop-prerelease
 ```
