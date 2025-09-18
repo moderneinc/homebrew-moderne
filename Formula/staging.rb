@@ -1,5 +1,5 @@
 module Staging
-  URL = "https://github.com/moderneinc/moderne-cli-releases/releases/download/v3.48.0/moderne-cli-macos.tar.gz"
-  SHA256 = "a33d32fda22736c9479e76a9ab8bc232da80d9cae823aac5a1bb17bf6753f292"
-  VERSION = "v3.48.0"
+  URL = "https://github.com/moderneinc/moderne-cli-releases/releases/download/v3.48.1/moderne-cli-macos.tar.gz"
+  SHA256 = "d2d47b35589f0875fe1e2219796bfcb2a296adb40780e021eedab19eb7c3c178"
+  VERSION = "v3.48.1"
 end
