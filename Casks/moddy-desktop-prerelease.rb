@@ -1,6 +1,6 @@
 cask "moddy-desktop-prerelease" do
   version "0.5.2-prerelease"
-  sha256 "21ab74ee11a2f32d5460ecd40b71ff811084d9e75de89c2abfb2b90dd74c685a"
+  sha256 "aa3f66b2cbe3dc6e5fd81b0f4007f36c962a934dbaeaeb423be2ec0f91b5fa59"
 
   url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/moddy-#{version}.dmg"
   name "Moddy Desktop (Prerelease)"
