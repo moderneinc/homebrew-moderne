@@ -1,5 +1,5 @@
 cask "moddy-desktop-prerelease" do
-  version "0.5.1-prerelease"
+  version "0.6.0-prerelease"
 
   on_intel do
     sha256 "INTEL_SHA256_PLACEHOLDER"
