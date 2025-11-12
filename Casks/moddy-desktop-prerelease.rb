@@ -1,9 +1,17 @@
 cask "moddy-desktop-prerelease" do
   version "0.6.0-prerelease"
-  sha256 "1ca211baad494572b5f7b7899eb14e24ed7051adc9f073619ca0043ddaafd432"
 
-  url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/moddy-#{version}.dmg"
-  name "Moddy Desktop (Prerelease)"
+  on_intel do
+    sha256 "INTEL_SHA256_PLACEHOLDER"
+    url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/moddy-#{version}-x64.dmg"
+  end
+
+  on_arm do
+    sha256 "ARM64_SHA256_PLACEHOLDER"
+    url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/moddy-#{version}-arm64.dmg"
+  end
+
+  name "Moddy Desktop Prerelease"
   desc "Moddy Desktop - Automated code remediation desktop client (Prerelease)"
   homepage "https://moderne.io"
 
