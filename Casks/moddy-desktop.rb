@@ -1,13 +1,13 @@
 cask "moddy-desktop" do
-  version "0.7.0"
+  version "0.7.1"
 
   on_intel do
-    sha256 "5fa2b059fb41b952f36bb47a40920b34389d2ef016c768c73457ab2a1960a498"
+    sha256 "ae115ad13cf2173046234088b2b2adf38fc3c6ac0fadfcf305396e4aacd3e58b"
     url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/moddy-#{version}-x64.dmg"
   end
 
   on_arm do
-    sha256 "b7062d7eefe0cfe6947fc673410231fd8743bb8340aa957fb0d9f66abe39cfa2"
+    sha256 "416c63c41629dc20453aada746917a3df692d2c18cc1dcbb242927044a8a173d"
     url "https://moddy-desktop.s3.us-east-1.amazonaws.com/releases/moddy-#{version}-arm64.dmg"
   end
 
