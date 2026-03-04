@@ -21,8 +21,7 @@ class Mod < Formula
   def install
     bin.install "mod"
   end
-
   test do
-    system "#{bin}/mod"
-  end
+      system "#{bin}/mod"
+   end
 end
