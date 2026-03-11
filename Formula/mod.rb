@@ -22,6 +22,6 @@ class Mod < Formula
     bin.install "mod"
   end
   test do
-      system "#{bin}/mod"
+      system "#{bin}/mod", "--version"
    end
 end
