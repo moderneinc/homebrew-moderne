@@ -19,14 +19,9 @@ class Mod < Formula
   end
 
   def install
-    if head?
-      bin.install "moderne-cli-#{version}-modw.sh" => "modw"
-      bin.install_symlink bin/"modw" => "mod"
-    else
-      bin.install "mod"
-    end
+    bin.install "mod"
   end
   test do
-      system "#{bin}/mod", "--version"
+      system "#{bin}/mod"
    end
 end
