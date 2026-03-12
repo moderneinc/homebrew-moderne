@@ -1,32 +1,17 @@
-require_relative "stable"
-require_relative "staging"
-
 class Mod < Formula
   desc "Automated code remediation."
   homepage "https://moderne.io"
   license :public_domain
-
-  stable do
-    url Stable::URL
-    sha256 Stable::SHA256
-    version Stable::VERSION
-  end
-
-  head do
-    url Staging::URL
-    sha256 Staging::SHA256
-    version Staging::VERSION
-  end
+  url "https://repo1.maven.org/maven2/io/moderne/moderne-cli/4.0.5/moderne-cli-4.0.5-modw.sh"
+  sha256 "0ac0cfca4fd792cc6838609de91e5b4f0bd983001cc13ebd9c1e8267bff34938"
+  version "4.0.5"
 
   def install
-    if head?
-      bin.install "moderne-cli-#{version}-modw.sh" => "modw"
-      bin.install_symlink bin/"modw" => "mod"
-    else
-      bin.install "mod"
-    end
+    bin.install "moderne-cli-#{version}-modw.sh" => "modw"
+    bin.install_symlink bin/"modw" => "mod"
   end
+
   test do
-      system "#{bin}/mod", "--version"
-   end
+    system "#{bin}/mod", "--version"
+  end
 end
