@@ -1,5 +1,5 @@
 module Staging
-  URL = "https://repo1.maven.org/maven2/io/moderne/moderne-cli/4.0.5/moderne-cli-4.0.5-modw.sh"
-  SHA256 = "0ac0cfca4fd792cc6838609de91e5b4f0bd983001cc13ebd9c1e8267bff34938"
-  VERSION = "4.0.5"
+  URL = "https://github.com/moderneinc/moderne-cli-releases/releases/download/v3.57.16/moderne-cli-macos.tar.gz"
+  SHA256 = "37bc754890ee341e8f7bce039214494cf99485cd4d1fa515075e7b7db0994bec"
+  VERSION = "v3.57.16"
 end
