@@ -1,5 +1,5 @@
 module Stable
-  URL = "https://github.com/moderneinc/moderne-cli-releases/releases/download/v3.57.14/moderne-cli-macos.tar.gz"
-  SHA256 = "6afac583b5203e4c601fefc7e74d13e9f75660fa446eba9f9c96cd096e128ba2"
-  VERSION = "v3.57.14"
+  URL = "https://github.com/moderneinc/moderne-cli-releases/releases/download/v3.57.16/moderne-cli-macos.tar.gz"
+  SHA256 = "37bc754890ee341e8f7bce039214494cf99485cd4d1fa515075e7b7db0994bec"
+  VERSION = "v3.57.16"
 end
