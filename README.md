@@ -8,10 +8,6 @@ Homebrew tap for Moderne
 ```shell
 brew install moderneinc/moderne/mod
 ```
-#### Staging
-```shell
-brew install moderneinc/moderne/mod --head
-```
 
 ### Moddy Desktop
 #### Stable
