@@ -2,9 +2,9 @@ class Mod < Formula
   desc "Automated code remediation."
   homepage "https://moderne.io"
   license :public_domain
-  url "https://repo1.maven.org/maven2/io/moderne/moderne-cli/4.2.8/moderne-cli-4.2.8-modw.sh"
-  sha256 "8f279660a2473a74f64f480003942372547ea66e054598bc04348f2088b09182"
-  version "4.2.8"
+  url "https://repo1.maven.org/maven2/io/moderne/moderne-cli/4.2.9/moderne-cli-4.2.9-modw.sh"
+  sha256 "3d145bc39cea8b9f9d72215c549435cab7df9a41a6633716ddb2b1ea53354359"
+  version "4.2.9"
 
   def install
     bin.install "moderne-cli-#{version}-modw.sh" => "modw"
