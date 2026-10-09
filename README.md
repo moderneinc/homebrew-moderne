@@ -8,13 +8,3 @@ Homebrew tap for Moderne
 ```shell
 brew install moderneinc/moderne/mod
 ```
-
-### Moddy Desktop
-#### Stable
-```shell
-brew install --cask moderneinc/moderne/moddy-desktop
-```
-#### Prerelease
-```shell
-brew install --cask moddy-desktop-prerelease
-```
